@@ -1,0 +1,159 @@
+html{
+
+    box-sizing: border-box;
+    /*font-size: 62.5%; /*RESET USADO PARA REDUCIR EL (1)REM de 16px a 10px*/
+
+}
+*, *:before, *:after{
+
+    box-sizing: inherit;
+
+}
+
+img{
+
+    max-width: 100%; 
+}
+
+
+body{
+    
+    
+    
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+/*Simulates a print out format*/
+#paper{
+    
+    
+    margin: 0 auto;
+
+    /*background-color: #f3f3f3;
+    /*box-shadow: 3px 3px #999999;*/
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+
+@media (min-width: 768px) 
+{
+    
+
+
+    #paper
+    {
+        
+        width: 73.076em;
+        
+        
+    }
+    
+        
+    #contact-info
+    {
+    
+        flex-basis: calc(35% - 0.2rem);
+        padding: 8rem 2rem 6rem 4rem;
+        
+        
+    }
+
+
+    #content
+    {
+        
+        
+        flex-basis: calc(65% - 0.2rem);
+        padding: 6rem 4rem 4rem 4rem;   
+        
+        
+    }
+
+
+}
+
+#contact-info
+{    
+ 
+    padding: 3rem 0.5rem 0rem 1rem;
+    
+}
+
+
+#content
+{
+    
+    padding: 1rem 1rem 2rem 0.5rem;   
+    
+    
+}
+
+
+/*Fonts and text*/
+
+
+
+.author
+{
+    
+    font-size: 1.2rem;
+    
+}
+
+
+.title
+{
+    
+    border-bottom: 2px solid #007bff;
+    
+    
+    
+    
+}
+
+h1,h2
+{
+    
+    color: #007bff;
+    
+}
+
+h2
+{
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+h3
+{
+    margin: 0.4rem 0 0 0;
+    font-size: 0.7rem;
+}
+
+p
+{
+    
+    margin: 0;
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.75rem;
+    
+    
+}
+
+
+.box
+{
+    
+    
+    
+    
+    
+    
+}
+
